@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#173c47" />
+  <meta name="description" content="Avika Collection, a multi-brand fashion destination in Lajpat Nagar, New Delhi." />
+  <title>Avika Collection | Lajpat Nagar, New Delhi</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="announcement">A wardrobe of possibilities. A collection of brands.</div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Avika Collection home">AVIKA<span>COLLECTION</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#women" data-filter="Women">Women</a>
+      <a href="#men" data-filter="Men">Men</a>
+      <a href="#accessories" data-filter="Accessories">Accessories</a>
+      <a href="#collection">Collection</a>
+      <a href="#story">Our Story</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchButton" aria-label="Search collection">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.6-3.6"></path></svg>
+      </button>
+      <button class="icon-button bag-button" id="bagButton" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l1 12H5L6 8Z"></path><path d="M9 8a3 3 0 0 1 6 0"></path></svg>
+        <span class="bag-count" id="bagCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">THE EVERYDAY, REIMAGINED</p>
+        <h1>Many brands.<br />One beautiful<br /><em>collection.</em></h1>
+        <p class="hero-text">Find pieces that feel like you. Discover clothing and accessories thoughtfully brought together at Avika Collection.</p>
+        <a class="button" href="#collection">Explore the collection <span>→</span></a>
+        <div class="hero-location">YOUR NEIGHBOURHOOD FASHION DESTINATION<br /><strong>Lajpat Nagar, New Delhi</strong></div>
+      </div>
+      <div class="hero-media reveal">
+        <img src="./assets/images/editorial.webp" alt="Fashion editorial featuring coordinated everyday looks" />
+        <div class="image-label">A fresh perspective on everyday dressing</div>
+      </div>
+    </section>
+
+    <section class="section" id="collection">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">FIND YOUR NEXT FAVOURITE</p>
+          <h2>Good style. Your way.</h2>
+        </div>
+        <a href="#products" class="text-link">View the collection ↗</a>
+      </div>
+
+      <div class="category-grid">
+        <button class="category-card cat-women reveal" data-category="Women" id="women">
+          <span>01</span><h3>Women</h3><b>↗</b>
+        </button>
+        <button class="category-card cat-men reveal" data-category="Men" id="men">
+          <span>02</span><h3>Men</h3><b>↗</b>
+        </button>
+        <button class="category-card cat-accessories reveal" data-category="Accessories" id="accessories">
+          <span>03</span><h3>Accessories</h3><b>↗</b>
+        </button>
+      </div>
+    </section>
+
+    <section class="section arrivals" id="products">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">A LITTLE WARDROBE INSPIRATION</p>
+          <h2>Meet your everyday favourites.</h2>
+        </div>
+        <button class="text-button" id="showAll">Shop all ↗</button>
+      </div>
+
+      <div class="toolbar reveal">
+        <div class="filter-pills" role="group" aria-label="Filter products">
+          <button class="pill active" data-filter="All">All</button>
+          <button class="pill" data-filter="Women">Women</button>
+          <button class="pill" data-filter="Men">Men</button>
+          <button class="pill" data-filter="Accessories">Accessories</button>
+        </div>
+        <label class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.6-3.6"></path></svg>
+          <input id="searchInput" type="search" placeholder="Search collection" aria-label="Search collection" />
+        </label>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>No pieces match that search yet.</p>
+    </section>
+
+    <section class="edit-banner reveal">
+      <div class="edit-copy">
+        <p class="eyebrow">THE AVIKA EDIT</p>
+        <h2>Everyday essentials</h2>
+        <p>Easy silhouettes. Considered details. Pieces to make your own, from workdays to weekends.</p>
+        <a class="button button-light" href="#products">Discover the edit <span>→</span></a>
+      </div>
+      <div class="edit-image"><img src="./assets/images/shirt.webp" alt="Ivory everyday shirt" loading="lazy" /></div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-image reveal"><img src="./assets/images/catalog.png" alt="Avika Collection catalogue layout" loading="lazy" /></div>
+      <div class="story-copy reveal">
+        <p class="eyebrow">AVIKA COLLECTION</p>
+        <h2>Style, brought closer to home.</h2>
+        <p>Avika Collection is a multi-brand fashion destination in Lajpat Nagar, New Delhi, bringing clothing and accessories together in one easy-to-explore collection.</p>
+        <p class="muted">Visit the store to discover the latest selection and find pieces that work for your everyday.</p>
+      </div>
+    </section>
+
+    <section class="brand-strip reveal" aria-label="Brands">
+      <span>STUDIO NORTH</span><span>RANG STUDIO</span><span>MYSA GOODS</span><span>AVIKA EDIT</span>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a class="brand footer-brand" href="#top">AVIKA<span>COLLECTION</span></a>
+      <p>Multi-brand clothing & accessories<br />Lajpat Nagar, New Delhi, India</p>
+    </div>
+    <div class="footer-links">
+      <a href="#collection">Collection</a><a href="#story">Our Story</a><a href="#products">Shop</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Avika Collection</p>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="bag-drawer" id="bagDrawer" aria-hidden="true" aria-label="Shopping bag">
+    <div class="drawer-header"><h2>Your bag</h2><button id="closeBag" class="close-button" aria-label="Close bag">×</button></div>
+    <div id="bagItems" class="bag-items"></div>
+    <div class="bag-footer">
+      <div><span>Subtotal</span><strong id="bagTotal">₹0</strong></div>
+      <p>Checkout is not enabled in this static preview.</p>
+      <button class="button full" disabled>Checkout</button>
+    </div>
+  </aside>
+
+  <dialog class="product-dialog" id="productDialog">
+    <button class="close-button dialog-close" id="dialogClose" aria-label="Close">×</button>
+    <div class="dialog-grid">
+      <img id="dialogImage" src="" alt="" />
+      <div class="dialog-copy">
+        <p class="eyebrow" id="dialogBrand"></p>
+        <h2 id="dialogName"></h2>
+        <p class="dialog-price" id="dialogPrice"></p>
+        <p id="dialogDescription"></p>
+        <div class="detail-row"><span>Material</span><b id="dialogMaterial"></b></div>
+        <div class="detail-row"><span>Fit</span><b id="dialogFit"></b></div>
+        <button class="button full" id="dialogAdd">Add to bag</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="./script.js"></script>
+</body>
+</html>
