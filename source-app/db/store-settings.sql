@@ -1,0 +1,2 @@
+-- Empty owner-review settings only. No products, discounts or orders.
+INSERT OR IGNORE INTO settings(key,value) VALUES('store','{"shipping":9900,"freeShipping":299900,"taxBps":0,"announcement":"A wardrobe of possibilities. A collection of brands.","featuredCollection":"Everyday essentials","returnDays":7,"contactEmail":"","phone":"","location":"Lajpat Nagar, New Delhi, India","deliveryNote":"Sample delivery: 3–7 business days within India. Actual service areas and timings need owner confirmation."}');

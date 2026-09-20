@@ -1,0 +1,6 @@
+Avika Collection - complete source package
+Read README.md for installation, fresh database migrations and the separate demo seed process. Read HANDOFF.md for implemented features and launch limitations.
+This ZIP includes source, original/optimized assets, migrations, sample seed, tests, lockfile and safe environment placeholders.
+It intentionally excludes credentials, node_modules, Git history, build caches, compiled output and local database/upload runtime state. Dependencies and build output are reproduced using the README instructions.
+Unlike the original working preview, a newly extracted copy requires database setup and demo seeding. Create the ignored .dev.vars file using the local-only example in README.md.
+The store is a working sandbox. Live commerce configuration and owner approval remain required.

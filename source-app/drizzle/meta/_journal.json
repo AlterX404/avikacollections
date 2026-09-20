@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789904302956,
+      "tag": "0000_familiar_hairball",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789904326967,
+      "tag": "0001_commerce_guards",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789906096243,
+      "tag": "0002_melted_timeslip",
+      "breakpoints": true
+    }
+  ]
+}
